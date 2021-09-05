@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Frontend Mentor | Social media dashboard with theme switcher</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card__wrap">
+        <header>
+          <div class="header__logo">
+            <p class="logo__title">Social Media Dashboard</p>
+            <p class="logo__followers">Total Followers: 23,004</p>
+          </div>
+          <div class="header__toggle">
+            <span>Dark Mode</span>
+            <input type="checkbox" id="toggle" class="theme__switch" />
+            <label for="toggle" class="theme__switch"></label>
+          </div>
+        </header>
+        <div class="total__card__wrap">
+          <section class="total__card facebook">
+            <div><img src="./images/icon-facebook.svg" alt="" /><span class="user__id">@nathanf</span></div>
+            <span class="total__value">1987</span>
+            <span class="total__sub__text">Followers</span>
+            <span class="total__today"><img src="./images/icon-up.svg" alt="" /> 12 Today</span>
+          </section>
+          <section class="total__card twitter">
+            <div><img src="./images/icon-twitter.svg" alt="" /><span class="user__id">@nathanf</span></div>
+            <span class="total__value">1044</span>
+            <span class="total__sub__text">Followers</span>
+            <span class="total__today"><img src="./images/icon-up.svg" alt="" /> 99 Today</span>
+          </section>
+          <section class="total__card instagram">
+            <div><img src="./images/icon-instagram.svg" alt="" /><span class="user__id">@realnathanf</span></div>
+            <span class="total__value">11k</span>
+            <span class="total__sub__text">Followers</span>
+            <span class="total__today"><img src="./images/icon-up.svg" alt="" /> 1099 Today</span>
+          </section>
+          <section class="total__card youtube">
+            <div><img src="./images/icon-youtube.svg" alt="" /><span class="user__id">Nathan F.</span></div>
+            <span class="total__value">8239</span>
+            <span class="total__sub__text">Subscribers</span>
+            <span class="total__today"><img src="./images/icon-down.svg" alt="" /> 144 Today</span>
+          </section>
+        </div>
+        <div class="overview__div"><p class="overview">Overview - Today</p></div>
+        <div class="today__card__wrap">
+          <div>
+            <section class="today__card">
+              <div>
+                <span class="social__figure">Page Views</span>
+                <img src="./images/icon-facebook.svg" alt="" />
+              </div>
+              <div>
+                <span class="today__value">87</span>
+                <span class="today__percentage"><img src="./images/icon-up.svg" alt="" /> 3%</span>
+              </div>
+            </section>
+            <section class="today__card">
+              <div>
+                <span class="social__figure">Likes</span>
+                <img src="./images/icon-facebook.svg" alt="" />
+              </div>
+              <div>
+                <span class="today__value">52</span>
+                <span class="today__percentage"><img src="./images/icon-down.svg" alt="" /> 2%</span>
+              </div>
+            </section>
+            <section class="today__card">
+              <div>
+                <span class="social__figure">Likes</span>
+                <img src="./images/icon-instagram.svg" alt="" />
+              </div>
+              <div>
+                <span class="today__value">5462</span>
+                <span class="today__percentage"><img src="./images/icon-up.svg" alt="" /> 2257%</span>
+              </div>
+            </section>
+            <section class="today__card">
+              <div>
+                <span class="social__figure">Profile Views</span>
+                <img src="./images/icon-instagram.svg" alt="" />
+              </div>
+              <div>
+                <span class="today__value">52k</span>
+                <span class="today__percentage"><img src="./images/icon-up.svg" alt="" /> 1375%</span>
+              </div>
+            </section>
+          </div>
+          <div>
+            <section class="today__card">
+              <div>
+                <span class="social__figure">Retweets</span>
+                <img src="./images/icon-twitter.svg" alt="" />
+              </div>
+              <div>
+                <span class="today__value">117</span>
+                <span class="today__percentage"><img src="./images/icon-up.svg" alt="" /> 303%</span>
+              </div>
+            </section>
+            <section class="today__card">
+              <div>
+                <span class="social__figure">Likes</span>
+                <img src="./images/icon-twitter.svg" alt="" />
+              </div>
+              <div>
+                <span class="today__value">507</span>
+                <span class="today__percentage"><img src="./images/icon-up.svg" alt="" /> 553%</span>
+              </div>
+            </section>
+            <section class="today__card">
+              <div>
+                <span class="social__figure">Likes</span>
+                <img src="./images/icon-youtube.svg" alt="" />
+              </div>
+              <div>
+                <span class="today__value">107</span>
+                <span class="today__percentage"><img src="./images/icon-down.svg" alt="" /> 19%</span>
+              </div>
+            </section>
+            <section class="today__card">
+              <div>
+                <span class="social__figure">Total Views</span>
+                <img src="./images/icon-youtube.svg" alt="" />
+              </div>
+              <div>
+                <span class="today__value">1407</span>
+                <span class="today__percentage"><img src="./images/icon-up.svg" alt="" /> 12%</span>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./main.js" defer></script>
+</html>
